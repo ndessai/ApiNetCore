@@ -10,7 +10,7 @@ namespace ApiNetCore.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value10", "value20" };
         }
 
         // GET api/values/5
